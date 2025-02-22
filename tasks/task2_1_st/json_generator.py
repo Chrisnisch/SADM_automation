@@ -3,7 +3,7 @@ from pathlib import Path
 
 from tasks.task2_1_st.solvers.scheduling_problem.rule import RuleType
 
-folder = Path(r"D:\Убежище\Университет\6 семестр\САПР\1\Сиднев\Садовников")
+folder = Path(r"C:\Users\Mikhail\Desktop\git\unik\sadm\lab1")
 
 graph_edges = [
     (1, 2, 5), (1, 3, 4), (1, 4, 4), (1, 5, 7),
@@ -16,9 +16,9 @@ graph_edges = [
     (8, 9, 7),
 ]
 
-variant = 9
+variant = 11
 
-is_sidnev = True
+is_sidnev = False
 
 performers_number = 4
 
