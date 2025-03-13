@@ -20,7 +20,7 @@ variant = 11
 
 is_sidnev = False
 
-performers_number = 4
+performers_number = 3
 
 rule_types = [RuleType.MIN_RESERVE, RuleType.MAX_DURATION, RuleType.MIN_RESERVE]
 
@@ -28,7 +28,7 @@ intensity_limit = 0.8
 
 standard_deviation = 0.09
 
-overtime_limit = 0.17
+overtime_limit = 0.15
 
 # Создаем словарь с данными
 rule_types_json = [rule.name for rule in rule_types]
